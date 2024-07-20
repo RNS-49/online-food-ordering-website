@@ -1,0 +1,253 @@
+body{
+  overflow-x: hidden;
+}
+
+/* navigation bar styling*/
+#title{
+
+  background-color:white;
+  display: flex;
+  background-image: url(images/food.jpg);
+  background-size: 100% 100%;
+}
+
+
+#name{
+ font-size: 30px;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ color: black;
+}
+.nav-item{
+  position: relative;
+  padding: 2px 20px;
+}
+.nav-info{
+  margin: 1rem;
+  margin-right: 15rem;
+  font-weight: bold;
+  color: white;
+}
+#signbtn{
+  border-radius: 20px;
+  color:white;
+  font-weight: bold;
+  border: 3px solid white;
+}
+#signbtn:hover{
+  color: rgb(255, 125, 4);
+}
+.appname{
+  text-align: center;
+  margin: 2rem;
+  font-size: 9rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background-image: url(images/b0133bb1-5609-4e68-ab6c-adc163ae9fe5.png); 
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.search-form{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.search-input{
+  padding: 6px;
+  border-radius:20px;
+  width: 600px;
+}
+
+
+/* Top picks this month section */
+.heading{
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.top-pick{
+  width: 30%;
+  margin-top: 2rem;
+}
+.food{
+  text-align: center;
+}
+
+/* Brands logo section*/
+.logo-section{
+  background-color:white;
+}
+
+.brand-names{
+  text-align: center;
+  padding-top: 3rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.brand{
+  width: 40%;
+  margin-top: 4rem;
+}
+
+.top-brand{
+  text-align: center;
+}
+
+
+/* offer sections */
+
+
+.offer{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.deals{
+  text-align: center;
+  padding: 4rem;
+}
+
+.icons{
+  margin: 1rem;
+  color: orange;
+ font-size: 3rem;
+}
+.icons:hover{
+ color: blueviolet;
+}
+
+
+/*Food listing and ordering section*/
+
+.head3{
+  margin: 2rem;
+}
+
+.food-list{
+  width: 50%;
+  border-radius: 1rem;
+  margin: 6px;
+}
+.cards-body{
+  background-color: rgb(231, 228, 223);
+  width: 50%;
+  border-radius: 1rem;
+}
+.food-img{
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  padding-left: 10rem;
+  margin-bottom: 3rem;
+}
+
+
+/* Chat bot*/
+
+.bot{
+  width: 30%;
+}
+#chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: -180px;
+}
+
+#chatbot-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#chatbot-container {
+  display: none;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  position: relative;
+  flex-direction: column;
+}
+
+#chatbot-header {
+  background: #f2c614;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#chatbot-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+#chatbot-messages div {
+  margin-bottom: 10px;
+}
+
+#user-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+#chatbot button {
+  background: #f2c614;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+/* Download section*/
+
+.down{
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.download{
+  background-color:rgb(248, 172, 50);
+  text-align: center;
+  padding-top: 5rem;
+}
+.img1{
+  transform:rotate(60degree);
+  padding-top: 3rem;
+}
+
+.img2{
+  margin-left: 2rem;
+  padding-top: 5rem;
+}
+.downbutton{
+  padding-left: 6rem;
+  text-align: center;
+}
+
+/*Bottom bar section*/
+
+.bottom-name{
+padding: 1rem;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bottom-bar{
+  background-color: #fbca06;
+}
+.icon{
+  color: black;
+  margin: 3px;
+}
+.developer{
+  padding: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
